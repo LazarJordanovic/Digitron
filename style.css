@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    background-color:rgb(151, 32, 32);
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    display: flex;
+    
+}
+
+ main input[type="button"]{
+   
+    border-radius: 10px;
+    background-color: black;
+    height: 30px;
+    width: 80px;
+    outline: none;
+    color: white;
+    position: relative;
+    left: 2%;
+    top: 3%;
+    font-weight: bold;
+   
+}
+main input[type="button"]:hover {
+    background-color: saddlebrown;
+    cursor: pointer;
+}
+main input[type="text"]{
+    background-color: gray;
+    border-radius: 12px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 30px;
+    text-align: center;
+    outline: none;
+    position: relative;
+    left: 15%;
+}
+main label{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 10%;
+}
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    position: relative;
+    left: 0;
+    margin-left: 20px;
+}
+section {
+   
+    position: relative;
+    align-items: center;
+    left: 45%;
+   
+    color: navy;
+
+}
+section input[type="text"]{
+    position: relative;
+    left: -15%;
+    height: 40px;
+}
+section label {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    left: -20%;
+}
